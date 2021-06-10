@@ -34,7 +34,7 @@ def elementfinder(element,keys):
     search.send_keys(Keys.RETURN)
 
 if __name__ == "__main__":
-    df = pd.read_excel("contact birthday.xlsx")
+    df = pd.read_excel("demo.xlsx")
     today = datetime.datetime.now().strftime("%d-%m")
     yearNow = datetime.datetime.now().strftime("%Y")
     writeInd = []
